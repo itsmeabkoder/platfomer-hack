@@ -1,0 +1,1 @@
+This folder is for images, styles, and other static assets.
