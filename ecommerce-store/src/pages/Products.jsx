@@ -6,7 +6,6 @@ const Products = () => {
   const [products] = useState(productsData);
 
   const handleAdd = (product) => {
-    // For now just log; cart wiring can be added later
     console.log('Add to cart:', product);
     alert(`${product.name} added to cart (mock)`);
   };
