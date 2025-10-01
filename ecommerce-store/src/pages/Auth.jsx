@@ -1,7 +1,9 @@
 import React from 'react';
+import { Navigate } from 'react-router-dom';
 
 function Auth() {
-  return <h2>Login / Register</h2>;
+  // keep old /auth route working by redirecting to login
+  return <Navigate to="/auth/login" replace />;
 }
 
 export default Auth;
